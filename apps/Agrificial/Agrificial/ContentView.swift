@@ -1,24 +1,23 @@
-//
 //  ContentView.swift
-//  Agrificial
+//  PalmVision
 //
-//  Created by Katelyn Fritz on 11/26/23.
+//  Created by Katelyn Fritz on 6/24/23.
 //
 
 import SwiftUI
+import AVKit
+import AVFoundation
+
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabBarMainView()
+        //ChatView()
     }
 }
 
-#Preview {
+
+#Preview
+{
     ContentView()
 }
