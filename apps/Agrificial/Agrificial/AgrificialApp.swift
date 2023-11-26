@@ -1,17 +1,35 @@
 //
-//  AgrificialApp.swift
-//  Agrificial
+//  PalmVisionApp.swift
+//  PalmVision
 //
-//  Created by Katelyn Fritz on 11/26/23.
+//  Created by Katelyn Fritz on 6/24/23.
 //
 
 import SwiftUI
 
 @main
 struct AgrificialApp: App {
+    @State private var isActive: Bool = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isActive {
+                ContentView()
+            } else {
+                LaunchScreenView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            withAnimation {
+                                self.isActive = true
+                            }
+                        }
+                    }
+            }
         }
     }
+    
+    /*var body: some Scene {
+     WindowGroup {
+     ContentView()
+     }
+     }*/
 }

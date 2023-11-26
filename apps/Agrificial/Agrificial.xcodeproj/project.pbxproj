@@ -11,6 +11,23 @@
 		8708A8972B12C34D00F2620D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708A8962B12C34D00F2620D /* ContentView.swift */; };
 		8708A8992B12C34E00F2620D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8708A8982B12C34E00F2620D /* Assets.xcassets */; };
 		8708A89C2B12C34E00F2620D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8708A89B2B12C34E00F2620D /* Preview Assets.xcassets */; };
+		87557D1B2B12D2CA001E154E /* ObjectAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D0B2B12D2CA001E154E /* ObjectAnalyzer.swift */; };
+		87557D1C2B12D2CA001E154E /* TabBarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D0C2B12D2CA001E154E /* TabBarMainView.swift */; };
+		87557D1D2B12D2CA001E154E /* DetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D0D2B12D2CA001E154E /* DetectionView.swift */; };
+		87557D1E2B12D2CA001E154E /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D0E2B12D2CA001E154E /* LaunchScreenView.swift */; };
+		87557D1F2B12D2CA001E154E /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D0F2B12D2CA001E154E /* ImageViewModel.swift */; };
+		87557D202B12D2CA001E154E /* ObjectAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D102B12D2CA001E154E /* ObjectAnalysisView.swift */; };
+		87557D212B12D2CA001E154E /* VideoDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D112B12D2CA001E154E /* VideoDetectionView.swift */; };
+		87557D222B12D2CA001E154E /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D122B12D2CA001E154E /* ImageModifier.swift */; };
+		87557D232B12D2CA001E154E /* ObjectDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D132B12D2CA001E154E /* ObjectDetection.swift */; };
+		87557D242B12D2CA001E154E /* PalmVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D142B12D2CA001E154E /* PalmVisionApp.swift */; };
+		87557D252B12D2CA001E154E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D152B12D2CA001E154E /* MapView.swift */; };
+		87557D262B12D2CA001E154E /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D162B12D2CA001E154E /* VideoViewModel.swift */; };
+		87557D272B12D2CA001E154E /* AerialListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D172B12D2CA001E154E /* AerialListView.swift */; };
+		87557D282B12D2CA001E154E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D182B12D2CA001E154E /* ChatView.swift */; };
+		87557D292B12D2CA001E154E /* ObjectDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D192B12D2CA001E154E /* ObjectDetectionView.swift */; };
+		87557D2A2B12D2CA001E154E /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D1A2B12D2CA001E154E /* VideoListView.swift */; };
+		87557D2C2B12D2DB001E154E /* best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 87557D2B2B12D2DB001E154E /* best.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		8708A8962B12C34D00F2620D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8708A8982B12C34E00F2620D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8708A89B2B12C34E00F2620D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87557D0B2B12D2CA001E154E /* ObjectAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAnalyzer.swift; sourceTree = "<group>"; };
+		87557D0C2B12D2CA001E154E /* TabBarMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarMainView.swift; sourceTree = "<group>"; };
+		87557D0D2B12D2CA001E154E /* DetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionView.swift; sourceTree = "<group>"; };
+		87557D0E2B12D2CA001E154E /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		87557D0F2B12D2CA001E154E /* ImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		87557D102B12D2CA001E154E /* ObjectAnalysisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAnalysisView.swift; sourceTree = "<group>"; };
+		87557D112B12D2CA001E154E /* VideoDetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetectionView.swift; sourceTree = "<group>"; };
+		87557D122B12D2CA001E154E /* ImageModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		87557D132B12D2CA001E154E /* ObjectDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetection.swift; sourceTree = "<group>"; };
+		87557D142B12D2CA001E154E /* PalmVisionApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalmVisionApp.swift; sourceTree = "<group>"; };
+		87557D152B12D2CA001E154E /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		87557D162B12D2CA001E154E /* VideoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		87557D172B12D2CA001E154E /* AerialListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AerialListView.swift; sourceTree = "<group>"; };
+		87557D182B12D2CA001E154E /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		87557D192B12D2CA001E154E /* ObjectDetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionView.swift; sourceTree = "<group>"; };
+		87557D1A2B12D2CA001E154E /* VideoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		87557D2B2B12D2DB001E154E /* best.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = best.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,23 @@
 		8708A8932B12C34D00F2620D /* Agrificial */ = {
 			isa = PBXGroup;
 			children = (
+				87557D2B2B12D2DB001E154E /* best.mlpackage */,
+				87557D172B12D2CA001E154E /* AerialListView.swift */,
+				87557D182B12D2CA001E154E /* ChatView.swift */,
+				87557D0D2B12D2CA001E154E /* DetectionView.swift */,
+				87557D122B12D2CA001E154E /* ImageModifier.swift */,
+				87557D0F2B12D2CA001E154E /* ImageViewModel.swift */,
+				87557D0E2B12D2CA001E154E /* LaunchScreenView.swift */,
+				87557D152B12D2CA001E154E /* MapView.swift */,
+				87557D102B12D2CA001E154E /* ObjectAnalysisView.swift */,
+				87557D0B2B12D2CA001E154E /* ObjectAnalyzer.swift */,
+				87557D132B12D2CA001E154E /* ObjectDetection.swift */,
+				87557D192B12D2CA001E154E /* ObjectDetectionView.swift */,
+				87557D142B12D2CA001E154E /* PalmVisionApp.swift */,
+				87557D0C2B12D2CA001E154E /* TabBarMainView.swift */,
+				87557D112B12D2CA001E154E /* VideoDetectionView.swift */,
+				87557D1A2B12D2CA001E154E /* VideoListView.swift */,
+				87557D162B12D2CA001E154E /* VideoViewModel.swift */,
 				8708A8942B12C34D00F2620D /* AgrificialApp.swift */,
 				8708A8962B12C34D00F2620D /* ContentView.swift */,
 				8708A8982B12C34E00F2620D /* Assets.xcassets */,
@@ -137,8 +188,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87557D1F2B12D2CA001E154E /* ImageViewModel.swift in Sources */,
+				87557D2C2B12D2DB001E154E /* best.mlpackage in Sources */,
+				87557D292B12D2CA001E154E /* ObjectDetectionView.swift in Sources */,
+				87557D232B12D2CA001E154E /* ObjectDetection.swift in Sources */,
+				87557D202B12D2CA001E154E /* ObjectAnalysisView.swift in Sources */,
+				87557D1B2B12D2CA001E154E /* ObjectAnalyzer.swift in Sources */,
+				87557D282B12D2CA001E154E /* ChatView.swift in Sources */,
+				87557D262B12D2CA001E154E /* VideoViewModel.swift in Sources */,
+				87557D252B12D2CA001E154E /* MapView.swift in Sources */,
+				87557D212B12D2CA001E154E /* VideoDetectionView.swift in Sources */,
+				87557D1D2B12D2CA001E154E /* DetectionView.swift in Sources */,
 				8708A8972B12C34D00F2620D /* ContentView.swift in Sources */,
+				87557D222B12D2CA001E154E /* ImageModifier.swift in Sources */,
+				87557D272B12D2CA001E154E /* AerialListView.swift in Sources */,
 				8708A8952B12C34D00F2620D /* AgrificialApp.swift in Sources */,
+				87557D2A2B12D2CA001E154E /* VideoListView.swift in Sources */,
+				87557D242B12D2CA001E154E /* PalmVisionApp.swift in Sources */,
+				87557D1C2B12D2CA001E154E /* TabBarMainView.swift in Sources */,
+				87557D1E2B12D2CA001E154E /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
