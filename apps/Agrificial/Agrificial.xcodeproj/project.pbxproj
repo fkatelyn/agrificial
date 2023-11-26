@@ -20,7 +20,6 @@
 		87557D212B12D2CA001E154E /* VideoDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D112B12D2CA001E154E /* VideoDetectionView.swift */; };
 		87557D222B12D2CA001E154E /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D122B12D2CA001E154E /* ImageModifier.swift */; };
 		87557D232B12D2CA001E154E /* ObjectDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D132B12D2CA001E154E /* ObjectDetection.swift */; };
-		87557D242B12D2CA001E154E /* PalmVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D142B12D2CA001E154E /* PalmVisionApp.swift */; };
 		87557D252B12D2CA001E154E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D152B12D2CA001E154E /* MapView.swift */; };
 		87557D262B12D2CA001E154E /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D162B12D2CA001E154E /* VideoViewModel.swift */; };
 		87557D272B12D2CA001E154E /* AerialListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87557D172B12D2CA001E154E /* AerialListView.swift */; };
@@ -45,7 +44,6 @@
 		87557D112B12D2CA001E154E /* VideoDetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetectionView.swift; sourceTree = "<group>"; };
 		87557D122B12D2CA001E154E /* ImageModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 		87557D132B12D2CA001E154E /* ObjectDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetection.swift; sourceTree = "<group>"; };
-		87557D142B12D2CA001E154E /* PalmVisionApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalmVisionApp.swift; sourceTree = "<group>"; };
 		87557D152B12D2CA001E154E /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		87557D162B12D2CA001E154E /* VideoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		87557D172B12D2CA001E154E /* AerialListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AerialListView.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				87557D0B2B12D2CA001E154E /* ObjectAnalyzer.swift */,
 				87557D132B12D2CA001E154E /* ObjectDetection.swift */,
 				87557D192B12D2CA001E154E /* ObjectDetectionView.swift */,
-				87557D142B12D2CA001E154E /* PalmVisionApp.swift */,
 				87557D0C2B12D2CA001E154E /* TabBarMainView.swift */,
 				87557D112B12D2CA001E154E /* VideoDetectionView.swift */,
 				87557D1A2B12D2CA001E154E /* VideoListView.swift */,
@@ -204,7 +201,6 @@
 				87557D272B12D2CA001E154E /* AerialListView.swift in Sources */,
 				8708A8952B12C34D00F2620D /* AgrificialApp.swift in Sources */,
 				87557D2A2B12D2CA001E154E /* VideoListView.swift in Sources */,
-				87557D242B12D2CA001E154E /* PalmVisionApp.swift in Sources */,
 				87557D1C2B12D2CA001E154E /* TabBarMainView.swift in Sources */,
 				87557D1E2B12D2CA001E154E /* LaunchScreenView.swift in Sources */,
 			);
